@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair:wght@300&display=swap');
+  
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Playfair, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+h1, h2 {
+  font-family: palyfair, sans-serif;
+  text-transform: capitalize; 
+  letter-spacing: 3px;
+  color: #02afd0;
+
+}
+#logo {
+  float: left;
+  font-size: 280%;
+  color: #02afd0;
+
+}
+#menu {
+  font-size: 110%;
+  letter-spacing: 3px;
+  
+}
+#menu, #logo {
+  line-height: 75px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+  font-weight: 600;
+}
+#menu a {
+  text-decoration: none;
+  color: #02afd0;
+}
+#menu a:hover {
+  border-bottom: 1px solid #02afd0;
+}
+.active {
+  border-bottom: 1px solid #02afd0;
+}
