@@ -1,14 +1,13 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair:wght@300&display=swap');
-
-header {
-    width: 300px;
-    height: 
-    background: #
-}  
-h1 {
-    float: left;
-    font-size: 300%;
-    font-family: "Playfair", sans-serif;
-    color: #02afd0;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body {
+    font-family: Playfair, sans-serif;
+    font-weight: 300;
+}
+
