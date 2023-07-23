@@ -18,6 +18,7 @@ h1, h2 {
   text-transform: capitalize; 
   letter-spacing: 3px;
   color: #02afd0;
+  font-size: 250%;
 
 }
 #logo {
@@ -54,20 +55,39 @@ h1, h2 {
 }
 #about-us {
   height: 600px;
-  background-color: aliceblue;
+  width: 100%;
   clear: both;
 }
-#left-about {
+.left-about {
    height: 600px;
    float: left;
    width: 40%;
    background-color: red;
+     
 }
-#right-about {
+.left-about h2, h3 {
+  text-align: center;
+  letter-spacing: 3px;
+  text-align: center;
+
+}
+p {
+  text-align: center;
+  font-family: oswald, sans-serif;
+  font-size: 100%;
+  
+
+}
+.right-about {
   float: right;
   width: 60%;
-  height: 600px;
-  background-color: blue; 
-  background-image: url('../images/Children-group.jpg') no-repeat center center;
+  height: 600px; 
+  background-image: no-repeat center center;
+  object-fit: fill;
   overflow: hidden;
 }
+ img {
+  max-width: 100%;
+  max-height: 100%;
+  
+ }
