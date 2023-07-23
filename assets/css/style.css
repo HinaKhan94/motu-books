@@ -93,8 +93,13 @@ h3 {
 p {
   text-align: center;
   font-family: oswald, sans-serif;
-  font-size: 100%;
-  
+  font-size: 150%;
+  text-align: center;
+}
+span {
+  font-weight: 300;
+  text-size: 175%;
+  color: #02afd0;
 }
 .right-about {
   float: right;
