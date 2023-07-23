@@ -71,7 +71,6 @@ h3 {
   height: 600px;
   width: 100%;
   clear: both;
-  background-color: pink;
   margin-bottom: -20px;
 }
 
@@ -127,6 +126,7 @@ span {
   height: 500px;
   position: relative;
   top: 20px;
+  background: rgba(255,255,0,0.5);
   
  }
 
@@ -193,7 +193,7 @@ span {
   font-family: playfair, sans-serif;
   font-weight: bold;
   font-size: 18px;
-  background: yellow;
+  background: rgba(255,255,0,0.5);
   padding: 10px;
   text-align: center;
   text-decoration: none;
@@ -216,7 +216,7 @@ span {
  /* footer section */
  footer {
   height: 150px;
-  background: yellow;
+  background: rgba(255,255,0,0.5);
  }
  .social-media {
   padding-top: 65px;
