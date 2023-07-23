@@ -210,3 +210,24 @@ p {
  }
 
  /* footer section */
+ footer {
+  height: 150px;
+  background: yellow;
+ }
+ .social-media {
+  padding-top: 65px;
+  text-align: center;
+ }
+ .social-media li {
+  display: inline;
+ }
+ .social-media a {
+  font-size: 160%;
+  margin-right: 30px;
+  color: #02afd0;
+  text-decoration: none;
+  letter-spacing: 3px;
+ }
+ .social-media a:hover {
+  border-bottom: 1px solid #02afd0;
+ }
