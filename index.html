@@ -70,13 +70,19 @@
     <section id="signup">
         <h2>Sign Up To Our Newsletter!</h2>
         <hr>
-        <form action="https://formdump.codeinstitute.net" method="POST" class="form">
-        <div class="form-inner">
-            <label for="fname">First Name:</label>
-            <input id="fname" type="text" name="first-name" required>
-            <br>
-            <label for="email">Email Address:</label>
-            <input id="email" type="email" name="user-email" placeholder="billy@gmail.com" required>
+        <form action="https://formdump.codeinstitute.net" method="POST">
+        <div class="form-box">
+            <div class="input-field">
+                <i class="fa-regular fa-user"></i>
+                <br>
+                <input type="text" name="full-name" placeholder="Full Name" required>
+            </div>
+            <div class="input-field">
+                <i class="fa-regular fa-envelope"></i>
+                <br>
+                <input id="email" type="email" name="user-email" placeholder="billy@gmail.com" required>
+            </div>
+
         </div>
             <input id="submit" type="submit" value="Sign Up!" class="button">
 
@@ -85,5 +91,7 @@
     </section>
 
     <footer>Social media links</footer>
+
+    <script src="https://kit.fontawesome.com/e2a515cee8.js" crossorigin="anonymous"></script>
 </body>
 </html>
