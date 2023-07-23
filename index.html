@@ -70,16 +70,17 @@
     <section id="signup">
         <h2>Sign Up To Our Newsletter!</h2>
         <hr>
-        <div>
-            <label></label>
-            <input id="fname">
-            <label></label>
-            <input id="lname">
-            <label></label>
-            <input id="email">
-            <label></label>
-            <input id="submit">
+        <form action="https://formdump.codeinstitute.net" method="POST" class="form">
+        <div class="form-inner">
+            <label for="fname">First Name:</label>
+            <input id="fname" type="text" name="first-name" required>
+            <br>
+            <label for="email">Email Address:</label>
+            <input id="email" type="email" name="user-email" placeholder="billy@gmail.com" required>
         </div>
+            <input id="submit" type="submit" value="Sign Up!" class="button">
+
+    </form>
 
     </section>
 
