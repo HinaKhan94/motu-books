@@ -24,6 +24,7 @@ h1, h2 {
   float: left;
   font-size: 280%;
   color: #02afd0;
+  margin-left: 20px;
 
 }
 #menu {
@@ -57,13 +58,16 @@ h1, h2 {
   clear: both;
 }
 #left-about {
-   padding-top: 30px;
+   height: 600px;
    float: left;
-   width: 50%;
+   width: 40%;
+   background-color: red;
 }
 #right-about {
   float: right;
-  width: 40%;
-  background: url('../assets/images/Playful-girl copy.jpg') no-repeat center center;
-  height: 600px
+  width: 60%;
+  height: 600px;
+  background-color: blue; 
+  background-image: url('../images/Children-group.jpg') no-repeat center center;
+  overflow: hidden;
 }
