@@ -243,3 +243,17 @@ span {
   width: 50%;
   margin: 0 auto;
  }
+ .blog-content p {
+  text-align: justify;
+ }
+
+ #text-area {
+  width: 50%;
+  height: 300px;
+  top: 40%;
+  left: 50px;
+ }
+ .textarea p {
+  padding-top: 20px;
+  text-align: left;
+ }
