@@ -36,7 +36,6 @@ h3 {
   font-size: 280%;
   color: #02afd0;
   margin-left: 20px;
-
 }
 #menu {
   font-size: 110%;
@@ -98,7 +97,7 @@ p {
 }
 span {
   font-weight: 300;
-  font-size: 175%;
+  font-size: 145%;
   color: #02afd0;
 }
 .right-about {
@@ -106,7 +105,7 @@ span {
   width: 60%;
   height: 600px; 
   background-image: no-repeat center center;
-  object-fit: fill;
+  object-fit: cover;
   overflow: hidden;
 }
  img {
@@ -143,40 +142,17 @@ span {
   padding: 20px 0 0 10px;
   box-sizing: border-box;
  }
- .image1 {
-  text-align: center;
- }
- .image2 {
-  text-align: center;
- }
- .image3 {
-  text-align: center;
- }
- .image4 {
+ .image1, .image2, .image3, .image4 {
   text-align: center;
  }
 
- .image1 img {
-  width: 100%;
-  height: 500%;
-  overflow: hidden;
- }
- .image2 img {
-  width: 100%;
-  height: 500%;
-  overflow: hidden;
- }
- .image3 img {
-  width: 100%;
-  height: 500%;
-  overflow: hidden;
- }
- .image4 img {
+ .image1, .image2, .image3, .image4 img {
   width: 100%;
   height: 500%;
   overflow: hidden;
  }
 
+ 
  /* sign up to our newsletter section */
 
  #signup {
@@ -242,7 +218,28 @@ span {
   color: #02afd0;
   text-decoration: none;
   letter-spacing: 3px;
+  font-family: oswald, sans-serif;
  }
  .social-media a:hover {
   border-bottom: 1px solid #02afd0;
+ }
+
+ /* hero-image blog*/
+ #hero-image {
+  height: 600px;
+  width: 100%;
+  background: url('../images/language.jpg') no-repeat center center;
+  clear: both;
+ }
+
+ /* article and headings*/
+ #blog {
+  text-align: center;
+  margin-top: 20px;
+ }
+ .blog-content {
+  border: 2px solid #02afd0;
+  padding:75px 70px;
+  width: 50%;
+  margin: 0 auto;
  }
