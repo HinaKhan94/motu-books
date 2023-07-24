@@ -201,11 +201,11 @@ span {
 }
 .icon {
   padding: 10px;
-  background: dodgerblue;
+  background: #02afd0;
   color: white;
   min-width: 50px;
   text-align: center;
-  border: 1px solid dodgerblue;
+  border: 1px solid #02afd0;
 }
 .input-inner {
   width: 50%;
