@@ -38,7 +38,7 @@ h3 {
   margin-left: 20px;
 }
 #menu {
-  font-size: 110%;
+  font-size: 150%;
   letter-spacing: 3px;
   
 }
@@ -63,57 +63,79 @@ h3 {
 .active {
   border-bottom: 1px solid #02afd0;
 }
+/*Hero-image*/
+#hero-outer {
+  height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+  height: 600px;
+  width: 100vw;
+  background: url('../images/hero-image.jpg') no-repeat center center;
+  background-size: cover;
+  clear: both;
+ }
+
+ #cover-text {
+  color: #fff;
+}
+#cover-text h2 {
+color:#fff;
+padding-left: 20px;
+}
+
+#cover-text {
+  font-size: 140%;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  width: 400px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-left: 20px;
+
+  background-color: rgba(75, 152, 233, 0.7);
+
+  bottom: 30px;
+  right: 150px;
+
+  position: absolute;
+}
 
 /* about us section */
 
 #about-us {
-  height: 600px;
+  height: 500px;
   width: 100%;
-  clear: both;
-  margin-bottom: -20px;
+  margin: 0 auto;
   border: 1px solid #3a3a3a;
+  padding-top: 40px;
+  margin-bottom: -20px;
   
 }
+#about-us h2, h3 {
+  text-align: center;
+}
 
-.left-about {
-   height: 600px;
-   float: left;
-   width: 40%;
-}
-.left-about h2{
-  text-align: center;
-  margin-top: 20%;
-}
-.left-about-heading h3 {
-  text-align: center;
-  font-size: 200%;
-  letter-spacing: 3px;
-  font-family: oswald, sans-serif;
-}
 p {
   text-align: center;
   font-family: oswald, sans-serif;
   font-size: 150%;
   text-align: center;
+  line-height: 45px;
 }
 span {
   font-weight: 300;
   font-size: 145%;
   color: #02afd0;
 }
-.right-about {
-  float: right;
-  width: 60%;
-  height: 600px; 
-  background-image: no-repeat center center;
-  object-fit: cover;
-  overflow: hidden;
-}
- img {
-  max-width: 100%;
-  height: 600px;
- }
- 
+
  hr {
   border-top: 1pxs;
   width: 100%;
@@ -229,14 +251,6 @@ span {
  }
  .social-media a:hover {
   border-bottom: 1px solid #02afd0;
- }
-
- /* hero-image blog*/
- #hero-image {
-  height: 600px;
-  width: 100%;
-  background: url('../images/language.jpg') no-repeat center center;
-  clear: both;
  }
 
  /* article and headings*/
