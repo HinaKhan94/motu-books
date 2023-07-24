@@ -71,6 +71,7 @@ h3 {
   width: 100%;
   clear: both;
   margin-bottom: -20px;
+  border: 1px solid #3a3a3a;
   
 }
 
@@ -126,6 +127,7 @@ span {
   height: 500px;
   position: relative;
   top: 20px;
+  border: 1px solid #3a3a3a;
   
  }
 
@@ -162,6 +164,9 @@ span {
   overflow: hidden;
   margin-bottom: 5px;
   text-align: center;
+  border: 1px solid #3a3a3a;
+  margin-top: 20px; 
+  margin-bottom: -20px;
  }
  #signup h2 {
   text-align: center;
@@ -204,6 +209,8 @@ span {
  footer {
   height: 150px;
   background: rgba(255,255,0,0.5);
+  margin-top: 20px;
+
  }
  .social-media {
   padding-top: 65px;
