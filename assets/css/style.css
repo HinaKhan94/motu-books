@@ -64,11 +64,11 @@ h3 {
   border-bottom: 1px solid #02afd0;
 }
 /*Hero-image*/
+
 #hero-outer {
   height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -146,9 +146,10 @@ span {
  
  #categories {
   width: 100%;
-  height: 500px;
+  height: 400px;
   top: 40px;
   border: 1px solid #3a3a3a;
+  padding-bottom: 20px;
  }
 
  #categories h2 {
@@ -158,11 +159,14 @@ span {
  }
 
 .image {
-  width: 25%;
+  width: 20%;
   position: relative;
   display: inline-block;
-  margin-right: 5px;
   padding-top: 20px;
+  padding-left: 45px;
+  padding-right: 20px;
+
+
 }
 .image-inside {
   width: 100%;
@@ -193,6 +197,9 @@ span {
 
 .image:hover .image-text {
   opacity: 2;
+}
+.image a {
+  text-decoration: none;
 }
  
  /* sign up to our newsletter section */
