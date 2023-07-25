@@ -116,7 +116,7 @@ padding-left: 20px;
   margin: 0 auto;
   border: 1px solid #3a3a3a;
   padding-top: 40px;
-  margin-bottom: -20px;
+
   
 }
 #about-us h2, h3 {
@@ -147,35 +147,53 @@ span {
  #categories {
   width: 100%;
   height: 500px;
-  position: relative;
-  top: 20px;
+  top: 40px;
   border: 1px solid #3a3a3a;
-  
  }
 
  #categories h2 {
   text-align: center;
-  margin-top: 1px;
+  padding: 20px;
 
  }
 
- #categories div {
+.image {
   width: 25%;
-  height: 15%;
-  float: left;
-  padding: 20px 0 0 10px;
-  box-sizing: border-box;
- }
- .image1, .image2, .image3, .image4 {
-  text-align: center;
- }
-
- .image1, .image2, .image3, .image4 img {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  padding-top: 20px;
+}
+.image-inside {
   width: 100%;
-  height: 500%;
-  overflow: hidden;
- }
+  height: auto;
+  opacity: 1.5;
+  backface-visibility: hidden;
+} 
+.image-text {
+  text-align: center;
+  transition: 0.3s;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.text {
+  font-family: oswald, sans-serif;
+  background-color: #02afd0;
+  color: white;
+  font-size: 16px;
+  padding: 15px 30px;
+}
+.image:hover .image-inside {
+  opacity: 0.2;
+}
 
+.image:hover .image-text {
+  opacity: 2;
+}
  
  /* sign up to our newsletter section */
 
@@ -186,7 +204,6 @@ span {
   margin-bottom: 5px;
   text-align: center;
   border: 1px solid #3a3a3a;
-  margin-top: 20px; 
   margin-bottom: -20px;
  }
  #signup h2 {
