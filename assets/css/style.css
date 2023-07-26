@@ -357,9 +357,32 @@ span {
     left: 0;
    }
 
-   .image {
+   .images {
     column-count: 3;
    }
  }
  
+ @media screen and (max-width: 800px) {
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    margin-right: 0;
+    font-size: 100%;
+  }
+  #cover-text {
+    left: 0;
+    font-size: 16px;
+   }
+  #about-us p {
+    font-size: 100%;
+  }
+#signup h2 {
+  font-size: 150%;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+ }
  
