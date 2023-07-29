@@ -37,27 +37,35 @@ h3 {
   color: #02afd0;
   margin-left: 20px;
 }
-#menu {
-  font-size: 150%;
-  letter-spacing: 3px;
-  
+
+#navbar {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 101;
+  width: 100%;
+  height: auto;
+  background-color: aliceblue;
 }
-#menu, #logo {
+.menu {
+  font-size: 150%;
+}
+.menu, #logo {
   line-height: 75px;
 }
 
-#menu li {
+.menu li {
   float: right;
   list-style-type: none;
   margin-right: 30px;
   font-weight: 600;
   font-family: oswald, sans-serif;
 }
-#menu a {
+.menu a {
   text-decoration: none;
   color: #02afd0;
 }
-#menu a:hover {
+.menu a:hover {
   border-bottom: 1px solid #02afd0;
 }
 .active {
@@ -117,7 +125,6 @@ padding-left: 20px;
   margin: 0 auto;
   border: 1px solid #3a3a3a;
   padding-top: 40px;
-  background-color: aqua;
   margin-bottom: 20px;
 
   
@@ -152,7 +159,6 @@ span {
   top: -20px;
   padding-bottom: 10px;
   position: relative;
-  background-color: beige;
  }
 
  #categories h2 {
@@ -347,12 +353,15 @@ span {
     height: 250px;
     box-sizing: border-box;
   }
+
   .image-inside {
-    width: 100%;
-    display: inline-block;
     padding: 0;
     height: 200px;
     box-sizing: border-box;
+  } 
+
+  .image-text {
+    top: 38%;
   }
  }
 
@@ -369,10 +378,6 @@ span {
   #cover-text {
     left: 0;
    }
-
-   .images {
-    column-count: 3;
-   }
  }
  
  @media screen and (max-width: 800px) {
@@ -380,7 +385,7 @@ span {
     display: none;
 
   }
-  #menu {
+  .menu {
     float: left;
     padding-left: 5px;
     margin: 0 auto;
@@ -411,7 +416,4 @@ span {
   
 }
 } 
-/* tried from the article
-@media (min-width: 600px) {
-  .image { grid-template-columns: repeat(2, 1fr); }
-}*/
+
