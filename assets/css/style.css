@@ -36,16 +36,18 @@ h3 {
   font-size: 280%;
   color: #02afd0;
   margin-left: 20px;
+
 }
 
 #navbar {
   position: fixed;
   top: 0;
   overflow: hidden;
-  z-index: 101;
   width: 100%;
   height: auto;
   background-color: aliceblue;
+  opacity: 0.5;
+  z-index: 101;
 }
 .menu {
   font-size: 150%;
@@ -368,7 +370,7 @@ span {
  /* for medium size screen from 950px wide and down */
 
  @media screen and (max-width: 950px) {
-  #menu {
+  .menu {
     clear: left;
     float: left;
     margin-left: 30px;
@@ -383,8 +385,7 @@ span {
  @media screen and (max-width: 800px) {
   #logo {
     display: none;
-
-  }
+  } 
   .menu {
     float: left;
     padding-left: 5px;
