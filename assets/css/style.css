@@ -187,9 +187,8 @@ span {
 
 
 } 
-
+/* removed width=90% so each picture looks proportional */
 .image-inside {
-  width: 90%;
   height: 350px;
   opacity: 1.5;
   backface-visibility: hidden;
