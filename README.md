@@ -1,39 +1,75 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Motubooks
 
-Welcome,
+MotuBooks is a family friendly company. It represents the importance of influence that innovative and cultural-based books have on children’s growth. MotuBooks highlights the key role that parents play in choosing valuable books for their kids. 
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+When working Hand in Hand with Motubooks, parents can influence their child’s future for the best by choosing the right and playful books for their Children.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+![Image of the mockup screenshot](assets/images/Screenshot%202023-07-31%20at%2009.36.48.png)
 
-## Codeanywhere Reminders
+## Features
+### Existing features
+- Navigation Bar
+  * featured on all two pages, the bar includes links to the home, categories, sign up and blog pages.
+  * This will allow the users to properly and easily navigate through out the website on all devices without pressing the 'back' button everytime.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Screenschot of the Navigation bar](assets/images/Navbar.png)
 
-`python3 -m http.server`
+- The Landing Page Image
+  * The landing page has an image with a cover text to show where the user is 
+  * The image was added to grab the user's attention and to make it interesting for the audience to stay on the webpage.
+  * The image shows kids which also explains the website's purpose that it is a kids website.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Image of a group of kids holding books](assets/images/landing-image.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### About Us Section
 
-`http_server`
+  * The about us section tells the user the story and purpose of the website and why is it important to choose the right books for kids.
+  * This section also highlights the keyrole of parents in shaping their kids future. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![screenshot of the about us section of Motubooks](assets/images/about-us.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Categories Section
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ * This section introduces Motubooks 4 Age Categories of books to choose from with images and covertext to look intersting to the user.
+ * The categories also have a hover function so it is also playful and gives off a friendly vibe.
+ * The four categories are following:
+   * BedTime Stories (Age:3-6)
+   * Early Reader (Age:5-9)
+   * Juvenile Reader (Age:7-9)
+   * Middle Grade (Age:8-12)
+   
+![screenshot of the categories section of Motubooks](assets/images/categories.png)
 
-To log into the Heroku toolbelt CLI:
+### Sign Up Section
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- This section allows the user to sign up to our Newsletter to join the motubooks community and recieve updates about our latest addition in the audio books categories.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![screenshot of the signup section of Motubooks](assets/images/signup.png)
 
----
+### Footer
+- The footer has all the relevant social media links. The links opens a new window to alloy smooth navigation for the audience.
 
-Happy coding!
+![screenshot of the footer section of Motubooks](assets/images/footer.png)
+
+### Features left to add
+* Blog page
+  * The blog has an active header, footer, and a body section with article but it still needs styling and images with a comments box at the end for users to interact and provide feedback.  
+
+## Testing
+### Validator Testing
+- HTML 
+  * No errors were found when passing through the recommended [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-hinakhan94-motubooks-k5bbenl7l7l.ws-eu102.gitpod.io%2Findex.html)
+- CSS
+  * No errors were found when passing through the recommended [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252F8000-hinakhan94-motubooks-k5bbenl7l7l.ws-eu102.gitpod.io%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Deployment
+- The site was deployed to Github pages, the process of deployment that I followed is as below:
+  * In the Github repositiory section, went to the settings tab
+  * From the source section drop-down menu, chose the Master Branch
+  * Once the master branch was selected, the page automatically refreshed and displayed a successfull deployment
+The link can be viewed here: 
+
+## Credits
+
+
+
