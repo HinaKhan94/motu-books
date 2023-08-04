@@ -6,7 +6,7 @@
 
 ## UX
 
-The target users of this website are the parents and their children. this is why the site is focused on simplicity and ease of navigation for all ages
+The target users of the website are the parents and their children. This is why the site is focused on simplicity and ease of navigation for all ages.
 
 ## User Stories
 
@@ -15,15 +15,15 @@ MotuBooks is a family friendly company. It represents the importance of influenc
 When working Hand in Hand with Motubooks, parents can influence their child’s future for the best by choosing the right and playful books for their Children.
 
 ## Strategy 
-The idea is to make a fully fucntioning audio books library for parents and kids to choose from keeping the design very simple, friendly and creative.
+The idea is to make a fully fucntioning audio books library for parents and kids to choose from, keeping the design very simple, friendly and creative.
 
 ## Scope 
 
-The overall scope of the project is to give imporatnce tf books (especially audio books) and the value they bring into one's lifestyle and in particular how books help in shaping the personality and future of kids. like mentioned above, it also caters to parents who want to play an active role in their kids upbringing, making the whole process not boring. Reading a book can be boring for some but listening to it when different sounds is quite an interesting thing to do.
+The overall scope of the project is to give importance to books (especially audio books) and the value they bring into one's lifestyle and in particular how books help in shaping the personality and future of kids. Like mentioned above, it also caters to parents who want to play an active role in their kids upbringing, making the whole process not boring. Reading a book can be boring for some but listening to it when different sounds is quite an interesting thing to do.
 
 ## Structure
 
-The website has a single scrolling page with different sections to navigate through. The structure features a fixed navigation bar and when clicked it takes the user to the desired section.
+The website has a single scrolling page with different sections to navigate through. The structure features a fixed navigation bar and when clicked, it takes the user to the desired section.
 
 ## Website Sections
 - Home/Landing page: Takes it to the hero image with a cover text of what the site is all about.
@@ -33,19 +33,21 @@ The website has a single scrolling page with different sections to navigate thro
 - Footer: lists down all the social networks with clickable links
   
 ## Skeleton 
-The website is a simple one page structure with flow from top to bottom.
+The website is a simple one page structure with flows from top to bottom.
 
-The initial skeleton was made using Balsamic Wireframes. It is discussed and motified with the guidance of my mentor.y
+The initial sketch was made using Balsamic Wireframes. It was discussed and motified with the guidance of my mentor.
 You can view the draft [here](assets/readme.docs/draft.pdf)
 
 ## Surface
 
-I have plain colors with gradient is my background colors.
+I have used plain colors with liner-gradient as my background color.
 
 ### Main color palette
 
-- Blue, #02afd0
-- Yellow #ffff00
+- Blue #02afd0 (A father's trust, loyalty and stability)
+- Yellow #ffff00, ([rgba(255,255, 0, 0.5)]) (A mother's enlightenment and creativity)
+- White #fff (an innocent and peacful child)
+- Gray #3a3a3a
 
 ## Technologies
 
