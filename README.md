@@ -1,6 +1,6 @@
 # Motubooks
 
-## A live demo of the website can be found [here](hinakhan94.github.io/motu-books/)
+## A live demo of the website can be found [here](https://hinakhan94.github.io/motu-books/)
 
 ![Image of the mockup screenshot](assets/readme.docs/Readme.Images/Screenshot%202023-07-31%20at%2009.36.48.png)
 
@@ -127,7 +127,7 @@ I have plain colors with gradient is my background colors.
   * In the Github repositiory section, went to the settings tab
   * From the source section drop-down menu, chose the Master Branch
   * Once the master branch was selected, the page automatically refreshed and displayed a successfull deployment
-The link can be viewed [here](hinakhan94.github.io/motu-books/) 
+The link can be viewed [here](https://hinakhan94.github.io/motu-books/) 
 ## Bugs
 ### Solved bugs
   * I had an issue with my categories section not responding well on mobile view but then with the help of my mentor I was able to detect the issue and it was because the height was fixed and did not adjust to the changing of the screen sizes.
