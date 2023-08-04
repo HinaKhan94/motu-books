@@ -2,7 +2,7 @@
 
 ## A live demo of the website can be found [here](https://hinakhan94.github.io/motu-books/)
 
-![Image of the mockup screenshot](assets/readme.docs/Readme.Images/Screenshot%202023-07-31%20at%2009.36.48.png)
+![Image of the mockup screenshot](assets/readme.docs/Readme.Images/mockup.png)
 
 ## UX
 
@@ -62,7 +62,7 @@ I have used plain colors with liner-gradient as my background color.
   * featured on all two pages, the bar includes links to the home, categories, sign up and blog pages.
   * This will allow the users to properly and easily navigate through out the website on all devices without pressing the 'back' button everytime.
 
-![Screenschot of the Navigation bar](assets/readme.docs/Readme.Images/Navbar.png)
+![Screenschot of the Navigation bar](assets/readme.docs/Readme.Images/nav-bar.png)
 
 - The Landing Page Image
   * The landing page has an image with a cover text to show where the user is 
