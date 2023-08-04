@@ -1,8 +1,33 @@
 # Motubooks
 
+## A live demo of the website can be found [here]()
+
+## UX
+
+The target users of this website are the parents and their children. this is why the site is focused on simplicity and ease of navigation for all ages
+
+## User Stories
+
 MotuBooks is a family friendly company. It represents the importance of influence that innovative and cultural-based books have on children’s growth. MotuBooks highlights the key role that parents play in choosing valuable books for their kids. 
 
 When working Hand in Hand with Motubooks, parents can influence their child’s future for the best by choosing the right and playful books for their Children.
+
+## Strategy 
+The idea is to make a fully fucntioning audio books library for parents and kids to choose from keeping the design very simple, friendly and creative.
+
+## Scope 
+
+The overall scope of the project is to give imporatnce tf books (especially audio books) and the value they bring into one's lifestyle and in particular how books help in shaping the personality and future of kids. like mentioned above, it also caters to parents who want to play an active role in their kids upbringing, making the whole process not boring. Reading a book can be boring for some but listening to it when different sounds is quite an interesting thing to do.
+
+## Structure
+
+The website has a single scrolling page with different sections to navigate through. The structure features a fixed navigation bar and when clicked it takes the user to the desired section.
+
+## Website Sections
+- Home/Landing page: Takes it to the hero image with a cover text of what the site is all about.
+- About us: A brief intorduction of Motubooks
+- Categories: lists 4 different categories targeting 4 different age groups (early reader, juvenile reader, middle grade and bedtime stories)
+- Sign up: allows the user to sign up for our newsletter 
 
 ![Image of the mockup screenshot](assets/images/Readme.Images/Screenshot%202023-07-31%20at%2009.36.48.png)
 
