@@ -2,6 +2,8 @@
 
 ## A live demo of the website can be found [here](hinakhan94.github.io/motu-books/)
 
+![Image of the mockup screenshot](assets/readme.docs/Readme.Images/Screenshot%202023-07-31%20at%2009.36.48.png)
+
 ## UX
 
 The target users of this website are the parents and their children. this is why the site is focused on simplicity and ease of navigation for all ages
@@ -34,7 +36,7 @@ The website has a single scrolling page with different sections to navigate thro
 The website is a simple one page structure with flow from top to bottom.
 
 The initial skeleton was made using Balsamic Wireframes. It is discussed and motified with the guidance of my mentor.y
-You can view the draft [here] (assets/readme.docs/draft.pdf)
+You can view the draft [here](assets/readme.docs/draft.pdf)
 
 ## Surface
 
@@ -51,7 +53,6 @@ I have plain colors with gradient is my background colors.
 - CSS
 - Balsamiq wireframes
 
-![Image of the mockup screenshot](assets/readme.docs/Readme.Images/Screenshot%202023-07-31%20at%2009.36.48.png)
 
 ## Features
 ### Existing features
