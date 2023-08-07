@@ -131,8 +131,11 @@ I have used plain colors with liner-gradient as my background color.
   * Once the master branch was selected, the page automatically refreshed and displayed a successfull deployment
 The link can be viewed [here](https://hinakhan94.github.io/motu-books/) 
 ## Bugs
-### Solved bugs
+### Solved Bugs
   * I had an issue with my categories section not responding well on mobile view but then with the help of my mentor I was able to detect the issue and it was because the height was fixed and did not adjust to the changing of the screen sizes.
+
+### Unsolved Bugs
+  * No unsolved bugs
   
 ## Credits
 I would like to thanks my mentor Oluwafemi Medale for his constant support and guidance through out the completion of the project.
