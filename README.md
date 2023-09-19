@@ -44,7 +44,7 @@ I have used plain colors with liner-gradient as my background color.
 
 ### Main color palette
 
-- Blue #02afd0 (A father's trust, loyalty and stability)
+- Blue #2B2F31 (A father's trust, loyalty and stability)
 - Yellow #ffff00, ([rgba(255,255, 0, 0.5)]) (A mother's enlightenment and creativity)
 - White #fff (an innocent and peacful child)
 - Gray #3a3a3a
@@ -109,8 +109,12 @@ I have used plain colors with liner-gradient as my background color.
 ### Validator Testing
 - HTML 
   * No errors were found when passing through the recommended [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-hinakhan94-motubooks-k5bbenl7l7l.ws-eu102.gitpod.io%2Findex.html)
+
+  ![screenshot of w3c markup validator](assets/readme.docs/Readme.Images/html-errors.png)
 - CSS
   * No errors were found when passing through the recommended [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252F8000-hinakhan94-motubooks-k5bbenl7l7l.ws-eu102.gitpod.io%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  ![screenshot of w3c css validator](assets/readme.docs/Readme.Images/css-errors.png)
 
 ### Lighthouse Testing
 - Desktop View
@@ -130,6 +134,25 @@ I have used plain colors with liner-gradient as my background color.
   * From the source section drop-down menu, chose the Master Branch
   * Once the master branch was selected, the page automatically refreshed and displayed a successfull deployment
 The link can be viewed [here](https://hinakhan94.github.io/motu-books/) 
+
+## Forking & Cloning Instructions
+* To create a copy of the repo in GitHub to edit:
+1. Log in to your GitHub account.
+2. Navigate to [motu-books repository](https://github.com/HinaKhan94/motu-books)
+3. Click on the "Fork" button located in the upper right-hand corner of the repository's page.
+4. Select the account where you want to fork the repository.
+5. Wait for GitHub to complete the forking process.
+6. Open the project in GitPod (or whichever IDE you have setup)
+
+* To clone a copy of the repo on your local machine to edit:
+1. Log in to your GitHub account.
+2. Navigate to [motu-books repository](https://github.com/HinaKhan94/motu-books)
+3. Click on the "Code" button located in the upper right-hand corner of the repository's page.
+4. Click on the "HTTPS" link to copy the URL of the repository.
+5. Open the terminal or command prompt on your local machine and navigate to the directory where you want to clone the repository.
+6. Type the following command, replacing the "repository_URL" with the URL of the repository that you copied in step 4: git clone repository_URL.
+7. Press Enter and wait for the cloning process to complete.
+
 ## Bugs
 ### Solved Bugs
   * I had an issue with my categories section not responding well on mobile view but then with the help of my mentor I was able to detect the issue and it was because the height was fixed and did not adjust to the changing of the screen sizes.
