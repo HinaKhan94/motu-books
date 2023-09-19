@@ -62,7 +62,7 @@ I have used plain colors with liner-gradient as my background color.
   * featured on all two pages, the bar includes links to the home, categories, sign up and blog pages.
   * This will allow the users to properly and easily navigate through out the website on all devices without pressing the 'back' button everytime.
 
-![Screenschot of the Navigation bar](assets/readme.docs/Readme.Images/nav-bar.png)
+![Screenschot of the Navigation bar](assets/readme.docs/Readme.Images/navbar.png)
 
 - The Landing Page Image
   * The landing page has an image with a cover text to show where the user is 
@@ -88,7 +88,7 @@ I have used plain colors with liner-gradient as my background color.
    * Juvenile Reader (Age:7-9)
    * Middle Grade (Age:8-12)
    
-![screenshot of the categories section of Motubooks](assets/readme.docs/Readme.Images/categories.png)
+![screenshot of the categories section of Motubooks](assets/readme.docs/Readme.Images/categories-section.png)
 
 ### Sign Up Section
 
